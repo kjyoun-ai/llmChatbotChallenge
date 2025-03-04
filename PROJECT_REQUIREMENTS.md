@@ -27,7 +27,7 @@ The goal is to see how you structure code, handle data flow, integrate with exte
   - A message input box at the bottom.
   - A scrollable conversation history above (messages from user, responses from the chatbot).
   - Clear distinctions between user messages and chatbot responses (e.g., different background colors or styling).
-- (Optional) Provide a basic metrics display somewhere on the UI—for example, to show:
+- Provide a basic metrics display somewhere on the UI—for example, to show:
   - The number of messages sent in the session.
   - Response latency or average response time.
   - (If using a cost-based LLM) an estimate of tokens used or cost.
@@ -38,7 +38,7 @@ The goal is to see how you structure code, handle data flow, integrate with exte
   - Handling the response and returning it to the frontend for display.
 - Prompt Engineering:
   - Provide some form of context injection for the business details or relevant data so the LLM can accurately respond to user queries.
-- (Optional) Streaming:
+-  Streaming:
   - If the chosen LLM provider supports streaming, implement a streaming response to show the chatbot's reply as it arrives, rather than waiting for the entire response. This tests real-time data handling.
 
 ### 4. Public API Integration
